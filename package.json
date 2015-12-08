@@ -1,5 +1,5 @@
 {
-  "name": "mws-sdk-promises",
+  "name": "node-mws-sdk",
   "description": "Amazon Marketplace Web Services client with support for all api calls, using ES6 Promises.",
   "keywords": [
     "mws",
@@ -9,29 +9,18 @@
     "sellers"
   ],
   "homepage": "http://_",
-  "version": "0.9.14",
+  "version": "0.1.0",
   "author": {
-    "name": "Eibbor Srenduas",
-    "email": "robbies@eibbors.net",
-    "url": "http://eibbors.net"
+    "name": "Stephen M. Senesac",
+    "email": "stephen@senesac.me"
   },
-  "contributors": [{
-    "name": "Adrian Sanchezdelc",
-    "email": "adrian@ticadia.com"
-  }, {
-    "name": "David F. Sklar",
-    "email": "dfsklar@gmail.com"
-  }, {
-    "name": "Alex I. Vedmedenko",
-    "email": "vedmalex@gmail.com"
-  }],
   "main": "./lib/mws",
   "directories": {
     "lib": "./lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vedmalex/mws-sdk.git"
+    "url": "https://github.com/smsenesac/mws-sdk.git"
   },
   "dependencies": {
     "xml2js": "^0.4.12",
@@ -46,6 +35,6 @@
     "test": "mocha -t 5000"
   },
   "bugs": {
-    "url": "https://github.com/ticadia/mws-sdk/issues"
+    "url": "https://github.com/snsemesac/mws-sdk/issues"
   }
 }
