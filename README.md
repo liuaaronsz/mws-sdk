@@ -1,6 +1,12 @@
 mws-sdk-promises
 ======
 
+Note from Stephen:
+
+I'm forking this as I have a project where I need to do outbound fulfillment in node and there are some notable bugs
+with that functionality in mws-js and all of its forks.  My long term goal is to give some much needed node love to MWS.
+For now, however, this fork serves my purposes only.
+
 Originally forked from [ticadia/mws-sdk](https://github.com/ticadia/mws-sdk).
 
 What is done:
@@ -9,16 +15,16 @@ What is done:
  - It is uses [request](https://www.npmjs.com/package/request). it is more flexible and there is no eventEmitter syntax.
 
  - Promises to provide generic async support.
- 
+
  - I've add some new requests from updated Amazone API.
- 
+
  - I fix it with better set params ability... so it now looks niceier!!!
 
 
 Use it. Contriburte it.
 
 it can be seamlesly used in ES2015/2016 way using [babel.js](https://babeljs.io/).
-with new javascript code features like `yield` or `async` `wait` to put some sugar on your code. 
+with new javascript code features like `yield` or `async` `wait` to put some sugar on your code.
 
 Examples
 --------
@@ -31,7 +37,7 @@ var MWS = require('mws-sdk-promises'),
     MarketplaceId = "ATVPDKIKX0DER";
 ```
 
-now you can use it 
+now you can use it
 
 ```javascript
 
