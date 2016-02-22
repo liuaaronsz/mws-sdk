@@ -1,5 +1,5 @@
 {
-  "name": "node-mws-sdk",
+  "name": "node-mws-sdk-meteor",
   "description": "Amazon Marketplace Web Services client with support for all api calls, using ES6 Promises.",
   "keywords": [
     "mws",
@@ -9,7 +9,7 @@
     "sellers"
   ],
   "homepage": "http://_",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Ibrahim Zahoor",
     "email": "ibrahimzahoor.nu@gmail.com"
