@@ -11,8 +11,8 @@
   "homepage": "http://_",
   "version": "0.1.3",
   "author": {
-    "name": "Stephen M. Senesac",
-    "email": "stephen@senesac.me"
+    "name": "Ibrahim Zahoor",
+    "email": "ibrahimzahoor.nu@gmail.com"
   },
   "main": "./lib/mws",
   "directories": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/smsenesac/mws-sdk.git"
+    "url": "https://github.com/ibrahimzahoor/mws-sdk.git"
   },
   "dependencies": {
     "xml2js": "^0.4.12",
